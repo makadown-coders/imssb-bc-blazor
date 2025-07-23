@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("imssb-bc-blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a99c0c35fe2ec51814122fa8e51844d1572a93b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("imssb-bc-blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("imssb-bc-blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
