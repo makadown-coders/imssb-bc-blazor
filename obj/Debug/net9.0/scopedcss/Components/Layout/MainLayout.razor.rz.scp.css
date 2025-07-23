@@ -1,0 +1,112 @@
+.page[b-uqli0jkudx] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-uqli0jkudx] {
+    flex: 1;
+}
+
+/* Sidebar institucional */
+.sidebar[b-uqli0jkudx] {
+    background-image: linear-gradient(180deg, #006341 0%, #2E8B57 70%);
+    color: white;
+}
+
+/* Top bar institucional */
+.top-row[b-uqli0jkudx] {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-row[b-uqli0jkudx]  a,
+.top-row[b-uqli0jkudx]  .btn-link {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #006341;
+}
+
+.top-row[b-uqli0jkudx]  a:hover,
+.top-row[b-uqli0jkudx]  .btn-link:hover {
+    text-decoration: underline;
+    color: #2E8B57;
+}
+
+.top-row[b-uqli0jkudx]  a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Responsive - móviles */
+@media (max-width: 640.98px) {
+    .top-row[b-uqli0jkudx] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-uqli0jkudx]  a,
+    .top-row[b-uqli0jkudx]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+/* Responsive - escritorio */
+@media (min-width: 641px) {
+    .page[b-uqli0jkudx] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-uqli0jkudx] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-uqli0jkudx] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-uqli0jkudx]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-uqli0jkudx],
+    article[b-uqli0jkudx] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+/* Blazor error UI */
+#blazor-error-ui[b-uqli0jkudx] {
+    color-scheme: light only;
+    background: #fff3cd;
+    color: #856404;
+    border-top: 1px solid #ffeeba;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss[b-uqli0jkudx] {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
