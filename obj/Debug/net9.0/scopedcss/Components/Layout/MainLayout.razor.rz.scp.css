@@ -62,7 +62,7 @@ main[b-uqli0jkudx] {
     }
 
     .sidebar[b-uqli0jkudx] {
-        width: 250px;
+       /* width: 250px;*/
         height: 100vh;
         position: sticky;
         top: 0;

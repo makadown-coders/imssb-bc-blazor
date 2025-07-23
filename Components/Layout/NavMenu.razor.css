@@ -107,3 +107,67 @@
         overflow-y: auto;
     }
 }
+
+/* Para el sidebar collapsible */
+
+.collapsible-sidebar-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease;
+    width: 250px;
+}
+
+.collapsible-sidebar-container.collapsed {
+    width: 65px;
+}
+
+.collapsible-sidebar-container .menu-text {
+    display: inline;
+    transition: opacity 0.2s ease;
+}
+
+.collapsible-sidebar-container.collapsed .menu-text {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.collapse-toggle-desktop {
+    position: absolute;
+    top: 0.75rem;
+    right: -1.5rem;
+    z-index: 10;
+}
+
+.collapsible-sidebar-container.collapsed .collapse-toggle-desktop button {
+    transform: rotate(180deg);
+}
+
+nav.flex-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Asegura que los íconos tengan suficiente espacio al colapsar el menú */
+.collapsible-sidebar-container.collapsed .nav-item ::deep .nav-link {
+    justify-content: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+/* Aumenta ligeramente el tamaño del ícono para mejor visibilidad */
+.bi {
+    width: 1.0rem;
+    height: 1.0rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0; /* elimina espacio innecesario */
+}
+
+.collapsible-sidebar-container {
+    overflow-x: hidden;
+    max-width: 100%;
+}

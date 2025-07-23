@@ -17,6 +17,14 @@
 <body>
     <Routes />
     <script src="_framework/blazor.web.js"></script>
+    <script>
+        window.toggleSidebar = function () {
+            const container = document.querySelector('.collapsible-sidebar-container');
+            if (container) {
+                container.classList.toggle('collapsed');
+            }
+        }
+    </script>
 </body>
 
 </html>

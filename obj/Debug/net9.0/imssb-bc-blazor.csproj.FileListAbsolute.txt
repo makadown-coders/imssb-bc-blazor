@@ -20,7 +20,6 @@ C:\repos\imssb-bc-blazor\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\scopedcss\bundle\imssb-bc-blazor.styles.css
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\scopedcss\projectbundle\imssb-bc-blazor.bundle.scp.css
-C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\zz7e43wt17-khy4lop6wu.gz
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\6ky9vjptqv-bqjiyaj88i.gz
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\xglk34cajo-c2jlpeoesf.gz
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\ojfpdnbqg2-erw9l3u2r3.gz
@@ -74,5 +73,7 @@ C:\repos\imssb-bc-blazor\obj\Debug\net9.0\refint\imssb-bc-blazor.dll
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\imssb-bc-blazor.pdb
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\imssb-bc-blazor.genruntimeconfig.cache
 C:\repos\imssb-bc-blazor\obj\Debug\net9.0\ref\imssb-bc-blazor.dll
-C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\m8f298beth-s0eyy5f47m.gz
-C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\iq7jtb27u8-s0eyy5f47m.gz
+C:\repos\imssb-bc-blazor\obj\Debug\net9.0\imssb-bc-blazor.sourcelink.json
+C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\zz7e43wt17-rxvtmkfl08.gz
+C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\m8f298beth-tzz5dppw56.gz
+C:\repos\imssb-bc-blazor\obj\Debug\net9.0\compressed\iq7jtb27u8-tzz5dppw56.gz
