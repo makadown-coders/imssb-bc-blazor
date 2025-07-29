@@ -1,3 +1,21 @@
+:root {
+    /* Breakpoints */
+    --x-breakpoint: 1294px;
+
+    /* Sidebar widths */
+    --sidebar-wide: 260px;
+    --sidebar-narrow: 76px;
+
+    /* Colores institucionales */
+    --verde-imss: #006341;
+    --verde-secundario: #2E8B57;
+    --dorado-imss: #CBA135;
+    --gris-borde: #e5e7eb;
+
+    /* Otros */
+    --sidebar-transition: width 0.25s ease;
+}
+
 html, body {
     font-family: "Noto Sans", sans-serif;
 }

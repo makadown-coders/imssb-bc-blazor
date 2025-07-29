@@ -1,52 +1,28 @@
-﻿@rendermode InteractiveServer
-
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href=""></a>
+﻿<div class="collapsible-sidebar-container">
+    <div class="sidebar-logo">
+        <img src="img/imssb-logo-blanco.png" alt="IMSS Bienestar Logo" />
     </div>
-</div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-<div class="collapsible-sidebar-container">
-    <!-- Sidebar scrollable original -->
     <div class="nav-scrollable">
         <nav class="nav flex-column">
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                    <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span>
-                    <span class="menu-text px-2"> Home</span>
+                    <span class="bi bi-house-door-fill-nav-menu"></span>
+                    <span class="menu-text px-2">Inicio</span>
                 </NavLink>
             </div>
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="counter">
-                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span>
-                    <span class="menu-text px-2"> Counter</span>
+                    <span class="bi bi-plus-square-fill-nav-menu"></span>
+                    <span class="menu-text px-2">Contador</span>
                 </NavLink>
             </div>
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="weather">
-                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>
-                    <span class="menu-text px-2"> Weather</span>
+                    <span class="bi bi-list-nested-nav-menu"></span>
+                    <span class="menu-text px-2">Clima</span>
                 </NavLink>
-            </div>
-            <!-- Botón colapsar al final del menú -->
-            <div class="nav-item px-3 mt-auto d-none d-md-block">
-                <button type="button" class="btn btn-sm btn-outline-light w-100" @onclick="ToggleSidebar"
-                    title="Contraer menú">
-                    ⇤
-                </button>
             </div>
         </nav>
     </div>
 </div>
-
-@code {
-    public async Task ToggleSidebar()
-    {
-        Console.WriteLine("DEBUG invocando toggleSidebar");
-        await JS.InvokeVoidAsync("toggleSidebar");
-    }
-
-    [Inject] IJSRuntime JS { get; set; } = default!;
-}
