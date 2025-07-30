@@ -1,3 +1,5 @@
+/* MainLayout.razor.css */
+
 /* Contenedor general */
 .x-app {
     display: flex;
@@ -34,7 +36,7 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0 1rem;
-    background: #f3f4f6;
+    background: var(--dorado-imss);
     border-bottom: 1px solid var(--gris-borde);
     position: sticky;
     top: 0;
